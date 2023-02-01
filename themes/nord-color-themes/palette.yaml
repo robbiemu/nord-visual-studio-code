@@ -1,0 +1,78 @@
+colors:
+  - svartr: 
+    i18n:
+      - en: black
+    value: #000000
+  - byssumálmr: 
+    i18n:
+      - en: gunmetal_tint
+    value: #2E3440
+  - byssupúðr: 
+    i18n:
+      - en: gunpowder_shade
+    value: #3B4252
+  - ásokkr: 
+    i18n:
+      - en: creekbed 
+    value: #434C5E
+  - myrkr_ákveða_blar: 
+    i18n:
+      - en: dark_slate_blue
+    value: #4C566A
+  - dismalr_ský:
+    i18n:
+      - en: ciel_morne
+    value: #5E81AC
+  - stormr_hvítr:
+    i18n:
+      - en: storm_grey_tone
+    value: #616E88
+  - ekblár:
+    i18n:
+      - en: dark_pastel_blue
+    value: #81A1C1
+  - Norðurljós_blár:
+    i18n:
+      - en: northernlights_blue_tint
+    value: #88C0D0
+  - stálblár_litr:
+    i18n:
+      - en: steel_teal_tint
+    value: #8FBCBB
+  - frauki:
+    i18n:
+      - en: inchworm_tone
+    value: #A3BE8C
+  - fjólublár_kvars:
+    i18n:
+      - en: mauve_quartz
+    value: #B48EAD
+  - hrósa_reiðr:
+    i18n:
+      - en: rose_madder_tone
+    value: #BF616A
+  - fjólublár_skugga:
+    flags: mine
+    i18n:
+      - en: mauve_shade
+    value: #C792EA
+  - miðja_rauðr:
+    i18n:
+      - en: middle_red_tone
+    value: #D08770
+  - rómverskt_silfr:
+    i18n:
+      - en: roman_silver_tint
+    value: #D8DEE9
+  - lavender_vefr:
+    i18n:
+      - en: lavender_web_tone
+    value: #E5E9F0
+  - króm_gulur:
+    i18n:
+      - en: chrome_yellow_tone
+    value: #EBCB8B
+  - blár_grár_tón:
+    i18n:
+      - en: azure_grey_tone
+    value: #ECEFF4
