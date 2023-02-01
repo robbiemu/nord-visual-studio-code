@@ -1,11 +1,11 @@
 {
-  "name": "nord-visual-studio-code",
-  "displayName": "Nord",
-  "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme.",
+  "name": "nord-visual-studio-code-custom-italics",
+  "displayName": "Nord custom italics",
+  "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme. Now with custom italics",
   "version": "0.19.0",
-  "publisher": "arcticicestudio",
+  "publisher": "robbiemu",
   "author": {
-    "name": "Arctic Ice Studio",
+    "name": "robbiemu - Arctic Ice Studio",
     "email": "development@arcticicestudio.com",
     "url": "https://www.arcticicestudio.com"
   },
@@ -21,7 +21,7 @@
   "engines": {
     "node": ">=15.13",
     "npm": ">=7.7",
-    "vscode": "^1.12.0"
+    "vscode": "^1.74.0"
   },
   "galleryBanner": {
     "color": "#2E3440",
@@ -59,7 +59,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nord",
+        "label": "Nord - custom italics",
         "uiTheme": "vs-dark",
         "path": "./themes/nord-color-theme.json"
       }
@@ -67,7 +67,7 @@
   },
   "scripts": {
     "build": "run-s clean package",
-    "clean": "del *.vsix",
+    "clean": "echo del *.vsix",
     "format": "run-s format:pretty format:fix",
     "format:fix": "eslint --fix --ext .js,.json .",
     "format:pretty": "prettier --write .",
@@ -84,6 +84,7 @@
     "@arcticicestudio/eslint-config-base": ">=0.11.0 <1.0.0",
     "@arcticicestudio/remark-preset-lint": ">=0.4.0 <1.0.0",
     "@babel/eslint-parser": "^7.15.7",
+    "@vscode/vsce": "^2.17.0",
     "del-cli": "^4.0.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
@@ -94,8 +95,7 @@
     "lint-staged": "^11.1.2",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.4.1",
-    "remark-cli": "^9.0.0",
-    "vsce": "^1.100.0"
+    "remark-cli": "^9.0.0"
   },
   "__metadata": {
     "id": "6f35c257-7fd5-4bc2-9cd1-01976589c17a",

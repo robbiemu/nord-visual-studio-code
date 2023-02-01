@@ -1,5 +1,5 @@
 {
-  "name": "Nord",
+  "name": "custom Nord Oblique",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
@@ -334,7 +334,8 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#616E88"
+        "foreground": "#616E88",
+        "fontStyle": "italic"
       }
     },
     {
@@ -446,10 +447,41 @@
       }
     },
     {
+      "name": "Italics",
+      "scope": "italic",
+      "settings": {
+        "foreground": "#b48ead",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": "bold",
+      "settings": {
+        "foreground": "#ebcb8b",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Quote",
+      "scope": "quote",
+      "settings": {
+        "foreground": "#687ba1",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Markup Bold",
       "scope": "markup.bold",
       "settings": {
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Italics",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -471,6 +503,21 @@
       "scope": "markup.inserted",
       "settings": {
         "foreground": "#A3BE8C"
+      }
+    },
+    {
+      "name": "Markup Quote + others",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#687ba1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup Superscript and Subscript",
+      "scope": ["markup.superscript", "markup.subscript"],
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -695,6 +742,22 @@
       "scope": "source.css meta.property-value",
       "settings": {
         "foreground": "#88C0D0"
+      }
+    },
+    {
+      "name": "Doctypes",
+      "scope": ["entity.name.tag.doctype", "meta.tag.sgml.doctype"],
+      "settings": {
+        "foreground": "#b48ead",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML Doctype",
+      "scope": "meta.tag.sgml.doctype.html",
+      "settings": {
+        "foreground": "#b48ead",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1387,6 +1450,77 @@
       "scope": "source.yaml entity.name.tag",
       "settings": {
         "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "custom oblique",
+      "scope": [
+        "keyword.other.unit",
+        "support.type.property-name.css",
+        "support.type.vendored.property-name.css",
+        "support.constant.vendored.property-value.css",
+        "meta.import.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.import.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.import.js variable.other",
+        "meta.export.ts meta.block.ts variable.other.readwrite.alias.ts",
+        "meta.export.tsx meta.block.tsx variable.other.readwrite.alias.tsx",
+        "meta.export.js variable.other",
+        "entity.name.function.ts",
+        "entity.name.function.tsx",
+        "support.type.primitive",
+        "entity.name.tag.yaml",
+        "entity.other.attribute-name",
+        "meta.tag.sgml.doctype.html",
+        "entity.name.tag.doctype",
+        "meta.tag.sgml.doctype",
+        "entity.name.tag.custom",
+        "source.js.jsx keyword.control.flow.js",
+        "support.type.property.css",
+        "support.function.basic_functions",
+        "constant.other.color.rgb-value.hex.css",
+        "constant.other.rgb-value.css",
+        "variable.assignment.coffee",
+        "support.function.basic_functions",
+        "keyword.operator.expression.typeof",
+        "punctuation.section.embedded",
+        "keyword.operator.type.annotation",
+        "variable.object.property.ts",
+        "variable.object.property.js",
+        "variable.object.property.jsx",
+        "variable.object.property.tsx",
+        "assignment.coffee",
+        "entity.name.type.ts",
+        "support.constant.math",
+        "meta.object-literal.key",
+        "meta.var.expr storage.type",
+        "variable.scss",
+        "variable.sass",
+        "variable.other.less",
+        "variable.parameter.url.scss",
+        "variable.parameter.url.sass",
+        "parameter",
+        "string",
+        "italic",
+        "quote",
+        "keyword",
+        "storage",
+        "language",
+        "constant.language",
+        "variable.language",
+        "type .function",
+        "type.function",
+        "storage.type.class",
+        "type.var",
+        "meta.parameter",
+        "variable.parameter",
+        "meta.parameters",
+        "keyword.control",
+        "modifier",
+        "this",
+        "comment"
+      ],
+      "settings": {
+        "fontStyle": "italic"
       }
     }
   ]
